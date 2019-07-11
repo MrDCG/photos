@@ -187,6 +187,7 @@ def git_operation():
     '''
     os.system('git add --all')
     os.system('git commit -m "add photos"')
+    os.system('git remote add origin https://github.com/MrDCG/photos.git')
     os.system('git push origin master')
 
 if __name__ == "__main__":
